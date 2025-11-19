@@ -1,0 +1,9 @@
+.card {
+    background-color: #fff;
+    border-radius: 12px; /* Nice rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* A subtle drop shadow */
+    padding: 20px;
+    margin: 20px auto; /* Centered with space around it */
+    max-width: 400px; /* Stops it getting too wide on big screens */
+    border: 1px solid #eee;
+}

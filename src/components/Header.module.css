@@ -1,0 +1,15 @@
+.mainHeader {
+    background-color: #282c34;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    border-bottom: 5px solid orange; /* A nod to Boobers */
+}
+
+.title {
+    margin: 0;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
