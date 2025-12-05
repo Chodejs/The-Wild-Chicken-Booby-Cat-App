@@ -1,9 +1,12 @@
 .card {
-    background-color: #fff;
-    border-radius: 12px; /* Nice rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* A subtle drop shadow */
-    padding: 20px;
-    margin: 20px auto; /* Centered with space around it */
-    max-width: 400px; /* Stops it getting too wide on big screens */
-    border: 1px solid #eee;
+    background-color: var(--card-bg); 
+    color: var(--text-color);
+    border-radius: 16px; 
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05); 
+    border: 1px solid var(--border-color);
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 450px;
+    width: 90%; 
+    transition: background-color 0.3s, border-color 0.3s, box-shadow 0.3s;
 }

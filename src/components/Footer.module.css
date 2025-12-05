@@ -1,5 +1,13 @@
+.mainFooter {
+    text-align: center;
+    padding: 2rem;
+    margin-top: auto; 
+    border-top: 1px solid var(--border-color);
+    color: var(--text-color);
+    opacity: 0.6;
+    font-size: 0.9rem;
+}
+
 .footerText {
-    font-weight: 700;
-    text-decoration: underline;
-    color: green;
+    font-weight: 500;
 }
