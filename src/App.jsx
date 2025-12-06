@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'; 
 import Header from "./components/Header";
-import Footer from "./components/Footer";
 import MainContent from "./components/MainContent";
+import Footer from "./components/Footer";
 import './App.css'; 
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
   const [nicknames, setNicknames] = useState(() => {
     const saved = localStorage.getItem("boobyNicknames");
     if (saved) return JSON.parse(saved);
-    return ["Booby Chicken", "Slooby", "Blooters", "The Queen"];
+    return ["Booby Chicken", "Slooby", "Blooters", "Queen Boobers", "Reow Reow", "Boodles"];
   });
 
   useEffect(() => {
@@ -49,10 +49,12 @@ function App() {
         subtitle={mainSubtitle} 
         nicknames={nicknames} 
         onAddNickname={addNickname} 
-        onRemoveNickname={removeNickname}
+        onRemoveNickname={removeNickname} 
       />
       
-      <Footer copyright={footerText} />
+      <Footer 
+        copyright={footerText} 
+      />
     </div>
   );
 }

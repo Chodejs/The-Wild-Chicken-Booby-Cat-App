@@ -12,6 +12,7 @@
     color: var(--text-color);
     opacity: 0.8;
     margin-bottom: 1.5rem;
+    color: inherit;
 }
 
 /* --- The List --- */
@@ -31,7 +32,7 @@
     background-color: var(--bg-color); 
     border-radius: 8px;
     font-weight: 500;
-    transition: transform 0.2s;
+    transition: transform 0.3s;
 }
 
 .nicknameItem:hover {
@@ -56,13 +57,16 @@
 
 /* --- The Toggle Button --- */
 .toggleBtn {
-    background: transparent;
+    background: var(--header-bg);
+    opacity: .9;
     color: var(--text-color);
     border: 1px solid var(--border-color);
     padding: 0.5rem 1rem;
-    font-size: 0.9rem;
+    font-size: 1rem;
+    font-weight: 650;
     border-radius: 20px;
     margin-bottom: 1rem;
+    transition: ease .25s;
 }
 
 .toggleBtn:hover {
